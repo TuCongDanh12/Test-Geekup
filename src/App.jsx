@@ -1,7 +1,6 @@
-import SelectUser from "./components/select";
+import SelectUser from "./components/Select/select";
+import ListTask from "./components/Task/listTask.jsx"
 import "./input.css";
-
-import ListTask from "./components/Task/listTask";
 function App() {
   return (
     <div className="h-screen w-screen bg-slate-100">

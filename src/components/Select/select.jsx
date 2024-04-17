@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Select } from "antd";
-import { userservice } from "../services/user.service";
-import { useAuth } from "../hooks";
+import { userservice } from "../../services/user.service";
+import { useAuth } from "../../hooks";
 function SelectUser() {
   const [options, setOptions] = useState([]);
   const [selectedValue, setSelectedValue] = useState(null);
